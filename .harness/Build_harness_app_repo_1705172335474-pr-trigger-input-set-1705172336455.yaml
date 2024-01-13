@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_app_repo_1705172335474-pr-trigger-input-set
+  identifier: Build_harness_app_repo_1705172335474prtriggerinputset
+  orgIdentifier: orgu
+  projectIdentifier: projectu
+  pipeline:
+    identifier: Build_harness_app_repo_1705172335474
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
