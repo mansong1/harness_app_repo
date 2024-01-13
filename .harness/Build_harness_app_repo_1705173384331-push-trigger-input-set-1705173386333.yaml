@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_app_repo_1705173384331-push-trigger-input-set
+  identifier: Build_harness_app_repo_1705173384331pushtriggerinputset
+  orgIdentifier: orgu
+  projectIdentifier: projectu
+  pipeline:
+    identifier: Build_harness_app_repo_1705173384331
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
